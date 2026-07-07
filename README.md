@@ -67,7 +67,7 @@ Opens up a gradio app in your browser, upload a csv and start chatting.
 
 Your csv needs at minimum these columns (names matter, case-insensitive-ish handled in the loader):
 
-"""
+``` 
 | column | required | notes |
 |---|---|---|
 | transaction_id | yes | must be unique |
@@ -79,7 +79,8 @@ Your csv needs at minimum these columns (names matter, case-insensitive-ish hand
 | payment_method | no | card, wallet, bank_transfer... |
 | customer_id | no | needed for cohort/search stuff |
 | country | no | needed for geo breakdown |
-"""
+
+```
 
 If a row fails validation it gets skipped (not crash the whole load), you'll see a count of skipped rows after upload.
 
