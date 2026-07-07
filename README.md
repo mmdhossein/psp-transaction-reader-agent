@@ -15,6 +15,7 @@ Under the hood its just a kernel with a bunch of plugins registered, and the LLM
 
 ## Project structure
 
+```
 psp-transaction-agent/
 ├── main.py                        # entrypoint, gradio UI
 ├── src/
@@ -34,7 +35,7 @@ psp-transaction-agent/
 │       ├── validators.py           # row-level validation
 │       └── formatters.py           # currency/date/table formatting
 └── tests/
-
+```
 
 ## Setup
 
